@@ -56,11 +56,11 @@ nav button {
   margin-bottom: 152px;
 }
 .actionPart {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 .actionTitle h6 {
@@ -70,12 +70,10 @@ nav button {
   margin-bottom: 23px;
 }
 .actionTitle p {
-    
-    width: 450px;
+  width: 450px;
   font-size: 24px;
-font-weight: 400px;
+  font-weight: 400px;
   color: #252432;
-
 }
 .actionTitle button {
   padding: 12px 36px;
@@ -87,6 +85,31 @@ font-weight: 400px;
   font-weight: bold;
   margin-top: 23px;
 }
-.actionImg img{
-    border-radius: 20px;
+.actionImg img {
+  border-radius: 20px;
+}
+.productiveUser {
+  background: #eef0fe;
+
+  padding: 50px 130px;
+  text-align: center;
+}
+.productiveUser h6 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+}
+.counterPart h2 {
+  font-weight: bold;
+  font-size: 80px;
+  color: #4e47ff;
+}
+.counterPart p {
+  font-weight: 400px;
+  font-size: 20px;
+  color: #999999;
+}
+.counterPart {
+  display: flex;
+  justify-content: space-around;
 }
