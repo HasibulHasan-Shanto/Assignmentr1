@@ -38,12 +38,13 @@ nav button {
   text-align: center;
 }
 .bannerTitle h1 {
-    font-size: 65px;
+  font-size: 65px;
   text-align: center;
   font-weight: bold;
   color: #252432;
+  margin-top: 150px;
 }
-.bannerTitle button{
+.bannerTitle button {
   padding: 12px 36px;
   background: #4e47ff;
   border: none;
@@ -53,5 +54,39 @@ nav button {
   font-weight: bold;
   margin-top: 37px;
   margin-bottom: 152px;
+}
+.actionPart {
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.actionTitle h6 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 23px;
+}
+.actionTitle p {
+    
+    width: 450px;
+  font-size: 24px;
+font-weight: 400px;
+  color: #252432;
+
+}
+.actionTitle button {
+  padding: 12px 36px;
+  background: #4e47ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 23px;
+}
+.actionImg img{
+    border-radius: 20px;
 }
