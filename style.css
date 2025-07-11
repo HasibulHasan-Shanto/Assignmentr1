@@ -35,6 +35,9 @@ nav button {
   font-size: 16px;
   font-weight: bold;
 }
+nav button:hover{
+background: linear-gradient(135deg, #4e47ff, #ff6ec4);
+}
 .bannerTitle {
   width: 905px;
   margin: auto;
@@ -57,6 +60,9 @@ nav button {
   font-weight: bold;
   margin-top: 37px;
   margin-bottom: 152px;
+}
+.bannerTitle button:hover{
+  background: linear-gradient(135deg, #4e47ff, #1a1a40);
 }
 .actionPart {
   display: flex;
@@ -87,6 +93,9 @@ nav button {
   font-size: 16px;
   font-weight: bold;
   margin-top: 23px;
+}
+.actionTitle button:hover{
+  background: linear-gradient(135deg, #4e47ff, #b347ff);
 }
 .actionImg img {
   border-radius: 20px;
@@ -197,6 +206,9 @@ strong {
   font-weight: 500px;
   margin: 32px 0;
 }
+.focusPart button:hover{
+  background: linear-gradient(135deg, #4e47ff, #00ffc3, #ffeb3b);
+}
 .focusPart img{
   border-radius: 20px;
 }
@@ -248,4 +260,39 @@ padding: 20px 0;
   font-weight: bold;
 
 
+}
+.form button:hover{
+  background: linear-gradient(135deg, #4e47ff, #a100f2, #ff0080);
+}
+.footerPart{
+  text-align: center;
+  background: white;
+  padding: 120px 0;
+}
+.footerPart b{
+  font-weight: bold;
+  font-size: 100px;
+  color: #4e47ff;
+  padding-top: 1000px;
+}
+.footerPart p{
+  font-weight: 400px;
+  font-size: 24px;
+  color: #8987A1;
+ padding: 20px 620px;
+
+}
+
+.flexFooter ul{
+  display: flex;
+  list-style: none;
+  gap: 44px;
+justify-content: center;
+}
+.flexFooter ul li a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400px;
+  color: #8987A1;
+    
 }
