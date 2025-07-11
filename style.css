@@ -200,3 +200,52 @@ strong {
 .focusPart img{
   border-radius: 20px;
 }
+.formPart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  padding: 70px 0;
+}
+.formPart h2{
+  font-weight: bold;
+  font-size: 97px;
+  color: #000000;
+}
+.form{
+  display: inline-block;
+}
+label{
+  display: block;
+  font-weight: 500px;
+  font-size: 18px;
+  color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+
+  padding: 20px 20px;
+  width: 497px;
+  border: none;
+  border-radius: 10px;
+}
+textarea{
+  border: none;
+  border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.form button{
+width: 100%;
+padding: 20px 0;
+  background: #4e47ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+
+
+}
