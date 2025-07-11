@@ -169,3 +169,34 @@ strong {
 .reviNam p {
   color: #25243288;
 }
+.focusPart{
+  background: #ffffff;
+  padding: 70px 150px;
+  text-align: center;
+  margin-top: 100px;
+
+}
+.focusPart h4{
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+}
+.focusPart p{
+    font-weight: 400px;
+  font-size: 20px;
+  color: #999999;
+  margin-top: 20px;
+}
+.focusPart button{
+  padding: 12px 36px;
+  background: #4e47ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500px;
+  margin: 32px 0;
+}
+.focusPart img{
+  border-radius: 20px;
+}
